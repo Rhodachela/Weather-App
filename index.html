@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/ChatGPT Image Oct 7, 2025, 01_38_51 PM.png"/>
+
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header section -->
+      <header>
+        <h1>Weather App</h1>
+        <p class="subtitle">Check current weather in any city worldwide</p>
+      </header>
+
+      <!-- Main Content -->
+      <main>
+        <!-- Search section -->
+        <section class="search-section">
+          <form id="searchForm" novalidate>
+            <label for="cityInput" class="visually-hidden">City Name</label>
+            <input
+              type="text"
+              id="cityInput"
+              name="city"
+              placeholder="Enter city name"
+              required
+              autocomplete="off" />
+
+            <button type="submit" id="searchBtn">Search</button>
+          </form>
+        </section>
+
+        <!-- Message/ Error section  -->
+        <section class="message-section" aria-live="polite">
+          <p id="errorMsg" class="error"></p>
+          <p id="loadingMsg" class="loading" hidden>Loading weather data...</p>
+        </section>
+
+        <!-- Weather display section -->
+        <section id="weatherInfo" class="weather-info" hidden>
+          <h2>City name</h2>
+          <div class="weather-details">
+            <img id="icon" alt="Weather Icon" src="" />
+            <div class="weather-data">
+              <p id="temp"></p>
+              <p id="desc"></p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          Powered by
+          <a href="https://openweathermap.org/" target="_blank" rel="noopener"
+            >OpenWeather</a>
+        </p>
+      </footer>
+    </div>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
