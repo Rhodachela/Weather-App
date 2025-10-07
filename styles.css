@@ -136,7 +136,7 @@ footer:hover{
 }
 
 
-@media (max-width:480px){
+@media (width:320px){
     .container{
         padding: 2rem;
         
