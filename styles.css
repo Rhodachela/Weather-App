@@ -138,7 +138,7 @@ footer:hover{
 
 @media (max-width:480px){
     .container{
-        padding: 1.5rem;
+        padding: 2rem;
     }
     header h1{
         font-size: 0.2rem;
@@ -152,11 +152,35 @@ footer:hover{
     }
     .weather-details{
         flex-direction: column;
-        gap: 0.5rem;
+        gap: 0.2rem;
     }
     header p {
         font-size: 0.5rem;
     }
+    .weather-info{
+        height: auto;
+    }
+    .weather-info h2 {
+        font-size: 0.5rem;
+        padding: 0.3rem;
+        background-color: aqua;
+    }
+    #temp{
+        font-size: 0.3rem;
+    }
+    .weather-details img {
+        width: 50px;
+        height: 50px;
+    }
+    #desc{
+        font-size: 0.2rem;
+    }
+    .weather-details{
+        background-color: #d63031;
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+    
 }
 @media (max-width: 768px){
     .container{
