@@ -85,13 +85,7 @@ button:hover, button:focus{
     margin-top: 1.5rem;
     background: linear-gradient(to bottom, #8dbdec, #f8f8f8);
     border-radius: 1.5rem;
-    border-radius: 1.5rem;
-    padding: 1rem;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding: 0.5rem;
 
 }
 .weather-info h2{
@@ -144,11 +138,10 @@ footer:hover{
 
 @media (max-width: 480px) {
     body {
+        padding: 3rem;
         display: flex;
         align-items: center;
         justify-content: center;
-        align-items: flex-start; /* prevents vertical centering stretch */
-        padding-top: 1rem;
     }
 
     .container {
@@ -157,7 +150,6 @@ footer:hover{
         max-width: 340px;
         padding: 3rem;
         text-align: center;
-        min-height: auto;
     }
 
     header h1 {
@@ -183,15 +175,10 @@ footer:hover{
 
     .weather-info {
         padding: 1rem;
-        max-height: fit-content;
-        height: auto;
-        margin-top: 1rem;
-        padding: 1rem;
-    
     }
 
     .weather-info h2 {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .weather-details {
@@ -207,15 +194,15 @@ footer:hover{
     }
 
     #temp {
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
 
     #desc {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 
     footer {
-        font-size: 0.5rem;
+        font-size: 0.9rem;
         margin-top: 1rem;
     }
 }
