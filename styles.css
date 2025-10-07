@@ -153,11 +153,11 @@ footer:hover{
     }
 
     header h1 {
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
 
     .subtitle {
-        font-size: 0.9rem;
+        font-size: 0.5rem;
     }
 
     .search-section form {
@@ -169,7 +169,7 @@ footer:hover{
     input[type="text"],
     button {
         width: 100%;
-        font-size: 1rem;
+        font-size: 0.5rem;
         padding: 0.7rem;
     }
 
@@ -178,7 +178,7 @@ footer:hover{
     }
 
     .weather-info h2 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .weather-details {
@@ -194,15 +194,15 @@ footer:hover{
     }
 
     #temp {
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
 
     #desc {
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
 
     footer {
-        font-size: 0.9rem;
+        font-size: 0.5rem;
         margin-top: 1rem;
     }
 }
