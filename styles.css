@@ -164,7 +164,6 @@ footer:hover{
     .weather-info h2 {
         font-size: 0.5rem;
         padding: 0.3rem;
-        background-color: aqua;
     }
     #temp{
         font-size: 0.3rem;
@@ -177,7 +176,6 @@ footer:hover{
         font-size: 0.2rem;
     }
     .weather-details{
-        background-color: #d63031;
         gap: 0.5rem;
         padding: 0.5rem;
     }
