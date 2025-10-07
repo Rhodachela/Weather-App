@@ -136,51 +136,76 @@ footer:hover{
 }
 
 
-@media (width:320px){
-    .container{
-        padding: 2rem;
-        
+@media (max-width: 480px) {
+    body {
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    header h1{
-        font-size: 0.2rem;
-    }
-    .search-section form{
-        flex-direction: column;
-        gap: 0.75rem;
-    }
-    button{
+
+    .container {
         width: 100%;
+        max-width: 340px;
+        padding: 3rem;
+        text-align: center;
     }
-    .weather-details{
+
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    .search-section form {
         flex-direction: column;
-        gap: 0.2rem;
+        align-items: center;
+        gap: 0.8rem;
     }
-    header p {
-        font-size: 0.5rem;
+
+    input[type="text"],
+    button {
+        width: 100%;
+        font-size: 1rem;
+        padding: 0.7rem;
     }
-    .weather-info{
-        height: auto;
+
+    .weather-info {
+        padding: 1rem;
     }
+
     .weather-info h2 {
-        font-size: 0.5rem;
-        padding: 0.3rem;
+        font-size: 1.5rem;
     }
-    #temp{
-        font-size: 0.3rem;
+
+    .weather-details {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.8rem;
     }
+
     .weather-details img {
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
     }
-    #desc{
-        font-size: 0.2rem;
+
+    #temp {
+        font-size: 1.6rem;
     }
-    .weather-details{
-        gap: 0.5rem;
-        padding: 0.5rem;
+
+    #desc {
+        font-size: 1.4rem;
     }
-    
+
+    footer {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+    }
 }
+
 @media (max-width: 768px){
     .container{
         max-width: 600px;
