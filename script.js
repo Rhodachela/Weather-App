@@ -63,7 +63,7 @@ form.addEventListener("submit", async (event) => {
 
  }
 
-    /*Display Weather data */
+    /*Display Weather data  */
 function displayWeather(data){
     const temperature = Math.round(data.main.temp);
     const description = data.weather[0].description;
